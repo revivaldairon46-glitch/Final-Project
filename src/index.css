@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-primary: #0f6b5a;
+  --brand-secondary: #f6a01a;
+  --brand-accent: #ff4d6d;
+}
+
+
+html,body,#root{height:100%;}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background-color:#ffffff; color: #111111}
+
+.container-lg{max-width:1200px; margin-left:auto; margin-right:auto}
+
+/* utility for subtle section backgrounds on white */
+.section-muted{background:linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.01));}

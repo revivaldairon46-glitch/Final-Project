@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+/.parcel-cache
+/.pnp
+.pnp.js
+/coverage
+/.DS_Store
